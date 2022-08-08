@@ -29,5 +29,32 @@ public class Main {
                 System.out.println(i);
             }
         }
+
+        //Задание 4
+        System.out.println("Задание 4");
+        //int day = 2022;
+        for (int j=1;j<=30;j++){
+            System.out.print(j+":");
+            if (j%3==0){
+                System.out.print(" ping");
+            }
+            if (j%5==0){
+                System.out.print(" pong");
+            }
+            System.out.println();
+        }
+
+        //Задание 5
+        System.out.println("Задание 5");
+        int x1 = 0;
+        int x2 = 1;
+        int sum;
+        System.out.print("Последовательность Фибоначчи: 0 1 ");
+        for (int j=0;j<8;j++){
+            sum=x1+x2;
+            System.out.print(sum+" ");
+            x1=x2;
+            x2=sum;
+        }
     }
 }
