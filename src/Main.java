@@ -16,23 +16,21 @@ public class Main {
         //Задание 2
         System.out.println();
         System.out.println("Задание 2");
-        int Friday=4;
-        for (;Friday<32;Friday=Friday+7){
-            System.out.println("Сегодня пятница, " + Friday + "-е число. Необходимо подготовить отчет.");
+        for (int friday=4;friday<32;friday=friday+7){
+            System.out.println("Сегодня пятница, " + friday + "-е число. Необходимо подготовить отчет.");
         }
 
         //Задание 3
         System.out.println("Задание 3");
-        int day = 2022;
-        for (i=0;i<=day+100;i=i+79){
-            if (i>day-200){
+        int year = 2022;
+        for (i=0;i<=year+100;i=i+79){
+            if (i>year-200){
                 System.out.println(i);
             }
         }
 
         //Задание 4
         System.out.println("Задание 4");
-        //int day = 2022;
         for (int j=1;j<=30;j++){
             System.out.print(j+":");
             if (j%3==0){
@@ -51,10 +49,10 @@ public class Main {
         int sum;
         System.out.print("Последовательность Фибоначчи: 0 1 ");
         for (int j=0;j<8;j++){
-            sum=x1+x2;
-            System.out.print(sum+" ");
-            x1=x2;
-            x2=sum;
-        }
+        sum=x1+x2;
+        System.out.print(sum+" ");
+        x1=x2;
+        x2=sum;
     }
+}
 }
